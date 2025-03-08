@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop - Classificação de Animais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Classificação de Animais do Pet Shop</h1>
+
+    <div id="form-container">
+        <h3>Adicione informações do animal</h3>
+        <form id="animal-form">
+            <input type="text" id="raca" placeholder="Raça" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <input type="number" id="peso" placeholder="Peso (kg)" required>
+            <select id="comportamento">
+                <option value="Ativo">Ativo</option>
+                <option value="Passivo">Passivo</option>
+            </select>
+            <button type="submit">Adicionar Animal</button>
+        </form>
+    </div>
+
+    <div id="result-container">
+        <h3>Animais Agrupados</h3>
+        <table id="animal-table">
+            <thead>
+                <tr>
+                    <th>Raça</th>
+                    <th>Idade</th>
+                    <th>Peso</th>
+                    <th>Comportamento</th>
+                    <th>Cluster</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Animais classificados serão exibidos aqui -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

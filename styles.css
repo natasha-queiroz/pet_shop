@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto 20px;
+    width: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#result-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#animal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#animal-table th, #animal-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
